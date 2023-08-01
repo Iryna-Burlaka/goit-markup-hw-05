@@ -655,19 +655,7 @@ img {
   gap: 16px;
 }
 
-/* .sub-item {
-  display: flex;
-  align-items: baseline;
-  background-color: #4d5ae5;
-  gap: 16px;
-  width: 164px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 8px 24px;
-} */
-
-.sub-btn {
+.sub-item {
   display: flex;
   align-items: baseline;
   background-color: #4d5ae5;
@@ -678,7 +666,8 @@ img {
   border-radius: 4px;
   padding: 8px 24px;
 }
-.sub-btn {
+
+.sub-text {
   text-align: center;
   font-size: 16px;
   font-style: normal;
