@@ -651,6 +651,8 @@ img {
 }
 
 .sab-form {
+  display: flex;
+  gap: 24px;
 }
 .sub-lable {
 }
@@ -677,7 +679,6 @@ img {
 
 .container-footer-btn {
   display: inline;
-  margin-left: 24px;
 }
 
 .sub-btn {
