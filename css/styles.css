@@ -787,7 +787,7 @@ img {
 .modal-form {
 }
 .container-modal-lable {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   /* position: relative; */
 }
 .container-input {
@@ -810,7 +810,7 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
   color: #2e2f42;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   padding: 11px 0 11px 38px;
   background-color: transparent;
