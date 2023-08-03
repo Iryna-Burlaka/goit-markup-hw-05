@@ -94,7 +94,7 @@ body {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link.current {
@@ -151,13 +151,14 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   padding: 188px 0;
   text-align: center;
   max-width: 1440px;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-head {
@@ -347,6 +348,10 @@ img {
   margin-bottom: 8px;
 }
 
+.thumb-team .text {
+  margin-bottom: 8px;
+}
+
 .team-icon-list {
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +360,6 @@ img {
 }
 
 .team-icon-item {
-  margin-top: 8px;
   align-items: center;
   width: 40px;
   height: 40px;
@@ -437,7 +441,6 @@ img {
 }
 
 .customers-icon {
-  max-width: 104px;
   fill: currentColor;
 }
 
@@ -503,6 +506,7 @@ img {
 .img-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
 }
 
 .img-link:hover,
@@ -853,8 +857,6 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.container-modal-checkbox {
-}
 .checkbox {
   display: inline;
   margin-bottom: 24px;
