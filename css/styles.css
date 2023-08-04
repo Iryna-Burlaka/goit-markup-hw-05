@@ -862,7 +862,7 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-checkbox:checked + .checkbox-label .checkbox-label-span .checkbox-icon {
+.modal-checkbox:checked + .checkbox-label .checkbox-label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
