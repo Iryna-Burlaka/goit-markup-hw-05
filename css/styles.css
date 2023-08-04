@@ -862,10 +862,11 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-checkbox:checked + .checkbox-icon {
+.modal-checkbox:checked + .checkbox-label > .checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  border-color: #404bbf;
 }
 
 .checkbox-label {
