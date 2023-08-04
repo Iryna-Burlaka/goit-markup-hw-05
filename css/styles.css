@@ -862,13 +862,6 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-checkbox:checked + .checkbox-label .checkbox-label-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-  border-color: #404bbf;
-}
-
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -888,6 +881,17 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+}
+
+.modal-checkbox:checked + .checkbox-label .checkbox-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+  border-color: #404bbf;
+}
+
+.checkbox-icon {
+  fill: inherit;
 }
 
 .checkbox-link {
