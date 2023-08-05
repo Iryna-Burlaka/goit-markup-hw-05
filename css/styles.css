@@ -831,10 +831,6 @@ img {
   fill: #4d5ae5;
 }
 
-/* .size {
-  padding: 3px 0;
-} */
-
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -881,6 +877,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin: 8px;
 }
 
 .modal-checkbox:checked + .checkbox-label .checkbox-label-span {
